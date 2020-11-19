@@ -14,7 +14,7 @@ function getMinElementFromAnArray(arr) {
             min = arr[i];
         }
     }
-    console.log(min);
+    return min;
 }
-getMinElementFromAnArray(intArray);
+console.log(getMinElementFromAnArray(intArray));
  

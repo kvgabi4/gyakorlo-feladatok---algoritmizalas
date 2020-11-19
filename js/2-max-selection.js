@@ -14,7 +14,7 @@ function getMaxElementFromAnArray(arr) {
             max = arr[i];
         }
     }
-    console.log(max);
+    return max;
 }
-getMaxElementFromAnArray(intArray);
+console.log(getMaxElementFromAnArray(intArray));
  
